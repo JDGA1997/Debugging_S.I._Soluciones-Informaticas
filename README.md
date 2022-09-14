@@ -25,7 +25,7 @@
 
 - Valeria Ledesma
 
--
+- Santiago Romero
 
 
 ## Proyecto
