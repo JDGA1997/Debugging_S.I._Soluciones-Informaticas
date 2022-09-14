@@ -13,17 +13,17 @@
 
 - Leonardo Cesar Farran
 
--
+- Omar David Fernández 
 
--
+- Juan Lozano
 
--
+- Giannina Natalia Savid Rodriguez 
 
--
+- Angelo Vito Leo Obregón
 
--
+- Fabiola Jeanette Benitez Armoa
 
--
+- Valeria Ledesma
 
 -
 
