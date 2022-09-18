@@ -1,31 +1,31 @@
 ![imagen](https://user-images.githubusercontent.com/105946879/189708376-08477f46-ff38-476d-b096-09a224167ed6.png)
 
 
-# Aula2 FullStack TSDWAD
+# Debugging S.I.
 
-## Repositorio del Grupo del Aula 2 correspondiente al Modulo FullStack de TSDWAD 
+## Repositorio del Grupo 75 correspondiente al Modulo FullStack de TSDWAD 
 
 ### Integrantes:
 
-- Juan Diego Gonzalez Antoniazzi
+- [Juan Diego Gonzalez Antoniazzi](https://github.com/JDGA1997)
 
-- Shirley Luz Frassa
+- [Shirley Luz Frassa](https://github.com/shirleyfrassa)
 
-- Leonardo Cesar Farran
+- [Leonardo Cesar Farran](https://github.com/Leo-Farran)
 
-- Omar David Fernández 
+- [Omar David Fernández](https://github.com/odafer91)
 
-- Juan Lozano
+- [Juan Lozano](https://github.com/juanlozano77)
 
-- Giannina Natalia Savid Rodriguez 
+- [Giannina Natalia Savid Rodriguez](https://github.com/giannisavid)
 
-- Angelo Vito Leo Obregón
+- [Angelo Vito Leo Obregón](https://github.com/Angelo-1989)
 
-- Fabiola Jeanette Benitez Armoa
+- [Fabiola Jeanette Benitez Armoa](https://github.com/JeaneBeAr)
 
-- Valeria Ledesma
+- [Valeria Ledesma](https://github.com/ledesmavb)
 
-- Santiago Romero
+- [Santiago Romero](https://github.com/santiagosw)
 
 
 ## Proyecto
