@@ -1,9 +1,11 @@
 ![imagen](https://user-images.githubusercontent.com/105946879/189708376-08477f46-ff38-476d-b096-09a224167ed6.png)
 
 
-# Debugging S.I.
+# Guias de Regalos 🛍️🎁🎀
 
-## Repositorio del Grupo 75 correspondiente al Modulo FullStack de TSDWAD 
+## Company: Debugging S.I.
+
+
 
 ### Integrantes:
 
