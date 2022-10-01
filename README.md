@@ -3,11 +3,13 @@
 
 # Guias de Regalos 🛍️🎁🎀
 
-## Company: Debugging S.I.
+## Company
+![imagen](https://user-images.githubusercontent.com/105946879/193426847-0a3fd71f-8c6b-4669-9485-6e9d15b4dfaa.png)
 
 
 
-### Integrantes:
+
+## Integrantes:
 
 - [Juan Diego Gonzalez Antoniazzi](https://github.com/JDGA1997)
 
