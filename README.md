@@ -32,5 +32,13 @@
 - [Santiago Romero](https://github.com/santiagosw)
 
 
-## Proyecto
+
+## Construido 👩‍💻👨🏼‍💻
+
+### Front-End
+
+- HTML5 para maquetado
+- CSS3 para implementacion de estilos
+- Javascript para funcionalidades
+- Bootstrap para el diseño del sitio
 
