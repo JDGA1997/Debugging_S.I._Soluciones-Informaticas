@@ -1,11 +1,15 @@
 ![imagen](https://user-images.githubusercontent.com/105946879/189708376-08477f46-ff38-476d-b096-09a224167ed6.png)
 
 
-# Debugging S.I.
+# Guias de Regalos 🛍️🎁🎀
 
-## Repositorio del Grupo 75 correspondiente al Modulo FullStack de TSDWAD 
+## Company
+![imagen](https://user-images.githubusercontent.com/105946879/193426847-0a3fd71f-8c6b-4669-9485-6e9d15b4dfaa.png)
 
-### Integrantes:
+
+
+
+## Integrantes:
 
 - [Juan Diego Gonzalez Antoniazzi](https://github.com/JDGA1997)
 
@@ -28,5 +32,13 @@
 - [Santiago Romero](https://github.com/santiagosw)
 
 
-## Proyecto
+
+## Construido 👩‍💻👨🏼‍💻
+
+### Front-End
+
+- HTML5 para maquetado
+- CSS3 para implementacion de estilos
+- Javascript para funcionalidades
+- Bootstrap para el diseño del sitio
 
