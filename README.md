@@ -42,3 +42,6 @@
 - Javascript para funcionalidades
 - Bootstrap para el diseño del sitio
 
+### Back-End
+
+- Pyhton para arquitectura MVC y POO.
