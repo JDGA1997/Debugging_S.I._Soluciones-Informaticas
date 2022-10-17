@@ -1,0 +1,177 @@
+body{
+    background-color: #000;
+    background-image: url(../imagenes/Fondo\ Regalos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor h1{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.contenedor p{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+}           
+
+.login-box{
+    width: 290px;
+    background: rgba(0, 0, 0, 0.5);
+    color: black;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    box-sizing: border-box;
+    padding: 106px 10px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.login-box .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: calc(50% - 50px);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.login-box h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box .textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.login-box .textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.login-box .textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.login-box a:hover{
+    color: #39dc79;
+}
+
+body{
+    background-color: azure;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    display: inline-block;
+    width: 120px;
+    line-height: 40px;
+    position: relative;
+}
+
+#menu ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block ruby;
+}
+
+#menu ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgba(254, 0, 0, 0.891);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 88.1%;
+    padding: 0%;
+    background-color: #000;
+    color: #fff;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}   
+
+.contenedor-footer{
+    display: flex;
+    width: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
+}
