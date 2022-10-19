@@ -6,113 +6,58 @@ body{
     background-attachment: fixed;
     background-position: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: #fff;
-    margin: 0;
-    padding: 0;
 }
 
 .cabecera h1{
     margin: 0;
-    padding: 0 0 10px;
+    padding: 0 0 5%;
     text-align: center;
     font-size: 10em;
-    color: purple;
-    -webkit-text-stroke: 1px #000;
+    color: rgb(241, 21, 241);
+    -webkit-text-stroke: 0.003em #000;
     position: absolute;
     top: 0;
-    left: 27%;
+    left: 24%;
     font-family: 'Comforter Brush', cursive;
 }
 
 .cabecera p{
-    margin: 7em;
-    padding: 0 0 20px;
+    margin: 4em;
+    padding: 0 0 5%;
     text-align: center;
-    font-size: 30px;
+    font-size: 3em;
     color: red;
-    -webkit-text-stroke: 1px #000;
+    -webkit-text-stroke: 0.03em #000;
+    font-family: 'Alkalami', serif;
+    position: relative;
+    left: 3%;
 }           
 
 .login-box{
-    width: 290px;
+    width: 20%;
     background: rgba(0, 0, 0, 0.5);
     color: black;
     position: absolute;
     top: 40%;
     left: 40%;
     box-sizing: border-box;
-    padding: 10px 10px;
+    padding: 1% 1%;
     color: #fff;
     
 }
 
 .login-box .avatar{
-    width: 100px;
-    height: 100px;
     position: relative;
-    top: 3px;
-    left: calc(50% - 50px);
-    
+    width: 50%;
+    height: 50%;
+    left: 25%;
 }
 
 .login-box h2{
     margin: 0;
-    padding: 0 0 20px;
+    padding: 0 0 10%;
     text-align: center;
-    font-size: 22px;
-}
-
-.login-box .textbox{
-    width: 100%;
-    overflow: hidden;
-    font-size: 20px;
-    padding: 8px 0;
-    margin: 8px 0;
-    border-bottom: 1px solid #fff;
-}
-
-.login-box .textbox i{
-    width: 26px;
-    float: left;
-    text-align: center;
-}
-
-.login-box .textbox input{
-    border: none;
-    outline: none;
-    background: none;
-    color: #fff;
-    font-size: 18px;
-    width: 80%;
-    float: left;
-    margin: 0 10px;
-}
-
-.login-box input[type="submit"]{
-    border: none;
-    outline: none;
-    height: 40px;
-    background: #1c8adb;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
-}
-
-.login-box input[type="submit"]:hover{
-    cursor: pointer;
-    background: #39dc79;
-    color: #000;
-}
-
-.login-box a{
-    text-decoration: none;
-    font-size: 12px;
-    color: darkgrey;
-}
-
-.login-box a:hover{
-    color: #39dc79;
+    font-size: 1.3em;
 }
 
 #menu {
@@ -120,28 +65,24 @@ body{
     list-style-type: none;
     position: absolute;
     left: 5%;
-    top: 20%;
+    top: 25%;
 }
 
 #menu li a{
     display: block;
-    color: rgb(230, 96, 7) ;
-    padding: 0px 10px;
-    margin-top: 10%;
-    font-size: 25px; 
+    color: rgb(230, 7, 63) ;
+    padding: 4%;
+    font-size: 1.3em; 
     text-align: center;
     font-family: 'Bungee', cursive;
     background-color: burlywood;
-    height: 1.5em; 
     text-decoration: none;
-    border-radius: 35%;
-    margin: 0px 10px;
+    border-radius: 40%; 
 }
 
 li {
     margin-bottom: 10%;
 }
-
 
 footer{
     position: fixed;
@@ -168,3 +109,4 @@ footer{
     position: absolute;
     right: 5%;
 }
+
