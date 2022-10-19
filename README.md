@@ -38,10 +38,10 @@
 ### Front-End
 
 - HTML5 para maquetado
-- CSS3 para implementacion de estilos
+- CSS3 para implementación de estilos
 - Javascript para funcionalidades
 - Bootstrap para el diseño del sitio
 
 ### Back-End
 
-- Pyhton para arquitectura MVC y POO.
+- Python para arquitectura MVC y POO.
