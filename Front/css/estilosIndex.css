@@ -15,7 +15,7 @@ body{
     font-size: 10em;
     color: rgb(241, 21, 241);
     -webkit-text-stroke: 0.003em #000;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 24%;
     font-family: 'Comforter Brush', cursive;
@@ -37,7 +37,7 @@ body{
     width: 20%;
     background: rgba(0, 0, 0, 0.5);
     color: black;
-    position: absolute;
+    position: fixed;
     top: 40%;
     left: 40%;
     box-sizing: border-box;
@@ -63,7 +63,7 @@ body{
 #menu {
     overflow: hidden;
     list-style-type: none;
-    position: absolute;
+    position: fixed;
     left: 5%;
     top: 25%;
 }
@@ -106,7 +106,7 @@ footer{
 }
 
 .redes {
-    position: absolute;
+    position: fixed;
     right: 5%;
 }
 
