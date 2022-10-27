@@ -1,0 +1,65 @@
+body{
+    background-image: url("../imagenes/fondoRegalos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container__for{
+    background-color: #0a1e35;
+    border-radius: 5vh;
+    opacity: 0.85;
+}
+
+img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+
+input{
+    display: block;
+    width: 50vh;
+    height: 5vh;
+    margin-bottom: 10vh;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.check{
+    width: 2vh;
+    height: 2vh;
+    display: inline;
+   }
+
+   a{
+    color: white;
+    text-decoration: none;
+    margin-left: 4vh;
+}
+
+.boton{
+    width: 30vh;
+    border-radius: 15vh;
+    background-color: #048620;
+    color: black;
+    margin-top: 5vh;
+    border: none;
+    border-bottom: 1vh solid #0b5a1c;
+    }
+
+a:hover{
+    color: #b8b8b8b8;
+}
+
+label:hover{
+    color: #b8b8b8b8;
+}
+
+.boton:active{
+    background-color: #0b5a1c;
+    width: 30vh;     
+}
