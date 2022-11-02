@@ -53,3 +53,12 @@ label:hover{
     color: #b8b8b8b8;
 }
 
+#google{
+    width: 4vh;
+    height: 4vh;
+}
+
+#facebook{
+    width: 5vh;
+    height: 5vh;
+}
