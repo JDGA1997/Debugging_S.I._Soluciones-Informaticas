@@ -1,5 +1,5 @@
-class CategoriaModelo:
+class ProvinciaModelo:
     
     def __init__(self):
-        self.categoriaId = -1
+        self.provinciaId = -1
         self.nombre = ""
