@@ -1,4 +1,5 @@
 from Modelos import CategoriaModelo, ProvinciaModelo, RolModelo
+import datetime
 
 class UsuarioModelo:
 
@@ -9,7 +10,7 @@ class UsuarioModelo:
         self.email = ""
         self.usuario = ""
         self.contrasenia = ""
-        self.fechaNacimiento = ""
+        self.fechaNacimiento = datetime.date.min
         self.provincia = ProvinciaModelo()
         self.dni = ""
         self.telefono = ""
