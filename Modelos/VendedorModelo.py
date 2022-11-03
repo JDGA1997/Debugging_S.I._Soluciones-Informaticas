@@ -1,6 +1,8 @@
+from ProvinciaModelo import ProvinciaModelo
+
 class VendedorModelo:
 
-    def __init__(self, vendedorId, nombre, email, provincia, cuit, 
+    def __init__(self, vendedorId, nombre, email, provincia: ProvinciaModelo, cuit, 
                 apellido = "", url = "", telefono = 0):
         self.__vendedorId = vendedorId
         self.__nombre = nombre
@@ -35,7 +37,7 @@ class VendedorModelo:
     def getProvincia(self):
         return self.__provincia
     
-    def setProvincia(self, value):
+    def setProvincia(self, value: ProvinciaModelo):
         self.__provincia = value
 
     def getCuit(self):

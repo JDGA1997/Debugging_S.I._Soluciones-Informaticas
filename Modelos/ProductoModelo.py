@@ -1,6 +1,10 @@
+from VendedorModelo import VendedorModelo
+from CategoriaModelo import CategoriaModelo
+
 class ProductoModelo:
 
-    def __init__(self, productoId, nombre, precio, stock, imagen, vendedor, categoria, 
+    def __init__(self, productoId, nombre, precio, stock, imagen, 
+                vendedor: VendedorModelo, categoria: CategoriaModelo, 
                 estaEnPromo = False, descripcion = ""):
         self.__productoId = productoId
         self.__nombre = nombre
@@ -54,11 +58,11 @@ class ProductoModelo:
     def getVendedor(self):
         return self.__vendedor
     
-    def setVendedor(self, value):
+    def setVendedor(self, value: VendedorModelo):
         self.__vendedor = value
 
     def getCategoria(self):
         return self.__categoria
     
-    def setCategoria(self, value):
+    def setCategoria(self, value: CategoriaModelo):
         self.__categoria = value

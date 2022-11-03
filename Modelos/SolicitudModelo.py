@@ -1,8 +1,9 @@
 import datetime
+from ProductosSolicitadosModelo import ProductosSolicitadosModelo
 
 class SolicitudModelo:
 
-    def __init__(self, solicitudId, productosSolicitados):
+    def __init__(self, solicitudId, productosSolicitados: ProductosSolicitadosModelo):
         self.__solicitudId = solicitudId
         self.__productosSolicitados = productosSolicitados
         self.__fecha = datetime.date.today()
@@ -13,7 +14,7 @@ class SolicitudModelo:
     def getProductosSolicitados(self):
         return self.__productosSolicitados
     
-    def setProductosSolicitados(self, value):
+    def setProductosSolicitados(self, value: ProductosSolicitadosModelo):
         self.__productosSolicitados = value
 
     def getFecha(self):

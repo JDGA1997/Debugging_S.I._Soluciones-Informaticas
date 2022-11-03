@@ -1,12 +1,13 @@
 import datetime
 from RolModelo import RolModelo
 from CategoriaModelo import CategoriaModelo
+from ProvinciaModelo import ProvinciaModelo
 
 class UsuarioModelo:
 
-    def __init__(self, usuarioId, nombre, apellido, email, usuario, contrasenia, dni, provincia, 
-                telefono = 0, rol = RolModelo(0, "user"), prefencia = CategoriaModelo(0, "todas"), 
-                fechaNacimiento = datetime.date.min):
+    def __init__(self, usuarioId, nombre, apellido, email, usuario, contrasenia, dni, 
+                provincia: ProvinciaModelo, telefono = 0, rol = RolModelo(0, "user"), 
+                prefencia = CategoriaModelo(0, "todas"), fechaNacimiento = datetime.date.min):
         self.__usuarioId = usuarioId
         self.__nombre = nombre
         self.__apellido = apellido
@@ -62,7 +63,7 @@ class UsuarioModelo:
     def getProvincia(self):
         return self.__provincia
     
-    def setProvincia(self, value):
+    def setProvincia(self, value: ProvinciaModelo):
         self.__provincia = value
 
     def getDni(self):
@@ -80,11 +81,11 @@ class UsuarioModelo:
     def getCategoria(self):
         return self.__categoria
     
-    def setCategoria(self, value):
+    def setCategoria(self, value: CategoriaModelo):
         self.__categoria = value
 
     def getRol(self):
         return self.__rol
     
-    def setRol(self, value):
+    def setRol(self, value: RolModelo):
         self.__rol = value
