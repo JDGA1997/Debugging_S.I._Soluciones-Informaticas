@@ -63,7 +63,7 @@ def obtenerTodosUsuarios():
 
     return usuarios 
 
-def obtenerUsuario(id):
+def obtenerUsuarioPorId(id):
     con = ConexionDB.getConnection()
     sqlQuery = f"""SELECT * FROM dbo.[Usuarios]
                 WHERE UsuarioId = {id}"""
@@ -73,25 +73,57 @@ def obtenerUsuario(id):
     fila = cursor.fetchone()
     cursor.close()
     ConexionDB.closeConnection(con)
+    if fila.__ne__(None):
+        nombre = fila[1]
+        apellido = fila[2]
+        email = fila[3]
+        usuario = fila[4]
+        contrasenia = fila[5]
+        fechaNac = fila[6]
+        provinciaId = fila[7]
+        dni = fila[8]
+        tel = fila[9]
+        categoriaId = fila[10]
+        rolId = fila[11]
 
-    nombre = fila[1]
-    apellido = fila[2]
-    email = fila[3]
-    usuario = fila[4]
-    contrasenia = fila[5]
-    fechaNac = fila[6]
-    provinciaId = fila[7]
-    dni = fila[8]
-    tel = fila[9]
-    categoriaId = fila[10]
-    rolId = fila[11]
+        provincia = ProvinciaDAO.obtenerProvincia(provinciaId)
+        categoria = CategoriaDAO.obtenerCategoria(categoriaId)
+        rol = RolDAO.obtenerRol(rolId)
 
-    provincia = ProvinciaDAO.obtenerProvincia(provinciaId)
-    categoria = CategoriaDAO.obtenerCategoria(categoriaId)
-    rol = RolDAO.obtenerRol(rolId)
+        return UsuarioModelo(id, nombre, apellido, email, usuario, contrasenia, dni, provincia, tel, rol, categoria, fechaNac)
+    else:
+        return None
 
-    return UsuarioModelo(id, nombre, apellido, email, usuario, contrasenia, dni, provincia, tel, rol, categoria, fechaNac)
+def obtenerUsuarioPorNombreUsuario(usuario):
+    con = ConexionDB.getConnection()
+    sqlQuery = f"""SELECT * FROM dbo.[Usuarios]
+                WHERE Usuario = {usuario}"""
+    cursor = con.cursor()
+    cursor.execute(sqlQuery)
 
+    fila = cursor.fetchone()
+    cursor.close()
+    ConexionDB.closeConnection(con)
+    if fila.__ne__(None):
+        nombre = fila[1]
+        apellido = fila[2]
+        email = fila[3]
+        usuario = fila[4]
+        contrasenia = fila[5]
+        fechaNac = fila[6]
+        provinciaId = fila[7]
+        dni = fila[8]
+        tel = fila[9]
+        categoriaId = fila[10]
+        rolId = fila[11]
+
+        provincia = ProvinciaDAO.obtenerProvincia(provinciaId)
+        categoria = CategoriaDAO.obtenerCategoria(categoriaId)
+        rol = RolDAO.obtenerRol(rolId)
+
+        return UsuarioModelo(usuario, nombre, apellido, email, usuario, contrasenia, dni, provincia, tel, rol, categoria, fechaNac)
+    else:
+        return None
 
 def eliminarUsuario(id):
     con = ConexionDB.getConnection()
