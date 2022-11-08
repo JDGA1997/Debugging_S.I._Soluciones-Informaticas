@@ -8,6 +8,8 @@ def insertarCategoria(categoria):
     record = ({categoria.getNombre()})
     cursor = con.cursor()
     cursor.execute(sqlQuery, record)
+
+    con.commit()
     cursor.close()
     ConexionDB.closeConnection(con)
 
@@ -54,5 +56,6 @@ def eliminarCategoria(id):
     cursor = con.cursor()
     cursor.execute(sqlQuery)
 
+    con.commit()
     cursor.close()
     ConexionDB.closeConnection(con)

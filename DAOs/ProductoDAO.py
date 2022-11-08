@@ -10,6 +10,7 @@ def insertarProducto(producto):
             {producto.getCategoria().getCategoriaId()}, {producto.estaEnPromo()})
     cursor = con.cursor()
     cursor.execute(sqlQuery, record)
+    con.commit()
     cursor.close()
     ConexionDB.closeConnection(con)
 
@@ -86,6 +87,7 @@ def eliminarProducto(id):
     cursor = con.cursor()
     cursor.execute(sqlQuery)
 
+    con.commit()
     cursor.close()
     ConexionDB.closeConnection(con)
 
@@ -104,5 +106,7 @@ def modificarProducto(producto):
     
     cursor = con.cursor()
     cursor.execute(sqlQuery)
+    
+    con.commit()
     cursor.close()
     ConexionDB.closeConnection(con)

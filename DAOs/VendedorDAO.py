@@ -10,6 +10,8 @@ def insertarVendedor(vendedor):
             {vendedor.getProvincia().getProvinciaId()})
     cursor = con.cursor()
     cursor.execute(sqlQuery, record)
+
+    con.commit()
     cursor.close()
     ConexionDB.closeConnection(con)
 
@@ -78,6 +80,7 @@ def eliminarVendedor(id):
     cursor = con.cursor()
     cursor.execute(sqlQuery)
 
+    con.commit()
     cursor.close()
     ConexionDB.closeConnection(con)
 
@@ -94,5 +97,7 @@ def modificarVendedor(vendedor):
     
     cursor = con.cursor()
     cursor.execute(sqlQuery)
+
+    con.commit()
     cursor.close()
     ConexionDB.closeConnection(con)

@@ -11,6 +11,8 @@ def insertarUsuario(usuario):
             {usuario.getCategoria().getCategoriaId()}, {usuario.getRol().getRolId()})
     cursor = con.cursor()
     cursor.execute(sqlQuery, record)
+    
+    con.commit()
     cursor.close()
     ConexionDB.closeConnection(con)
 
@@ -97,7 +99,8 @@ def eliminarUsuario(id):
                 WHERE UsuarioId = {id}"""
     cursor = con.cursor()
     cursor.execute(sqlQuery)
-
+    
+    con.commit()
     cursor.close()
     ConexionDB.closeConnection(con)
 
@@ -118,5 +121,7 @@ def modificarUsuario(usuario):
     
     cursor = con.cursor()
     cursor.execute(sqlQuery)
+    
+    con.commit()
     cursor.close()
     ConexionDB.closeConnection(con)
