@@ -1,0 +1,34 @@
+body{
+    background-image: url("../imagenes/fondoRegalos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#boton{
+    inline-size: 3vh;
+}
+
+.container__for{
+    background-color: #0a1e35;
+    border-radius: 5vh;
+    opacity: 0.85;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 7.3vh;
+    margin-right: 7.3vh;
+}
+
+.cont1{
+    background-color: #556374;
+    border-radius: 5vh;
+    opacity: 0.85;
+}
+
+.cont2{
+    background-color: #556374;
+    border-radius: 5vh;
+    opacity: 0.85;
+}

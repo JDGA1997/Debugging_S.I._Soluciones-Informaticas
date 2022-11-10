@@ -1,0 +1,57 @@
+body{ 
+    background-image: url(../imagenes/fondoRegalos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#boton{
+    inline-size: 3vh;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 7.3vh;
+    margin-right: 7.3vh;
+}
+
+#suscribe{
+    font-size: 3vh;
+}
+
+.cabecera h1{
+    text-align: center;
+    font-size: 15vw;
+    color: rgb(134, 72, 216);
+    -webkit-text-stroke: 0.009em #000;
+    font-family: 'Comforter Brush', cursive;
+}
+
+.cabecera p{
+    padding: 0 0 5%;
+    text-align: center;
+    font-size: 6vw;
+    color: red;
+    -webkit-text-stroke: 0.03em #000;
+    font-family: 'Amatic SC', cursive; 
+}           
+
+
+footer{
+    font-size: 1.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

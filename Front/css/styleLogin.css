@@ -1,46 +1,33 @@
 body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url("../imagenes/imgLogin.png");
-    background-position: center;
+    background-image: url("../imagenes/fondoRegalos.png");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+#boton{
+    inline-size: 3vh;
 }
 
 .container__for{
     background-color: #0a1e35;
-    border-radius: 15px;
-    padding: 40px;
-    opacity: 0.9;
+    border-radius: 5vh;
+    opacity: 0.85;
 }
 
 img{
-    width: 100px;
-    height: 100px;
-    margin-left: 36%;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
 }
 
-h2{
-    text-align: center;
-    color: white;
-}
+/*poner el input en el centro*/
+
 
 input{
     display: block;
-    width: 300px;
-    height: 40px;
-    margin-bottom: 20px;
-    padding: 0 15px;
-    font-size: 18px;
+    width: 50vh;
+    height: 5vh;
+    margin-bottom: 10vh;
     outline: none;
     border: none;
     background: transparent;
@@ -49,39 +36,34 @@ input{
 }
 
 .check{
-    width: 15px;
-    height: 15px;
+    width: 18vh;
+    height: 2vh;
     display: inline;
-   }
-label{
-    color: white;
 }
+
+
 a{
     color: white;
     text-decoration: none;
-    margin-left: 45px;
+    margin-left: 7.3vh;
+    margin-right: 7.3vh;
 }
 
-.boton{
-    width: 150px;
-    border-radius: 15px;
-    background-color: #048620;
-    color: black;
-    margin-top: 30px;
-    border: none;
-    border-bottom: 4px solid #0b5a1c;
-    margin-left: 96px;
-    }
+
 a:hover{
     color: #b8b8b8b8;
 }
+
 label:hover{
     color: #b8b8b8b8;
 }
 
-.boton:active{
-    background-color: #0b5a1c;
-    width: 145px;
-         
+#google{
+    width: 4vh;
+    height: 4vh;
 }
 
+#facebook{
+    width: 5vh;
+    height: 5vh;
+}
