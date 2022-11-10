@@ -1,0 +1,9 @@
+body{
+    background-image: url("../imagenes/fondoRegalos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#boton {
+    inline-size: 3vh;
+}
