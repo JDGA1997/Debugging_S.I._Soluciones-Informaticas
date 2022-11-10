@@ -4,7 +4,7 @@ body{
     background-size: cover;
 }
 
-#boton {
+#boton{
     inline-size: 3vh;
 }
 
@@ -14,13 +14,20 @@ body{
     opacity: 0.85;
 }
 
-.cont1 {
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 7.3vh;
+    margin-right: 7.3vh;
+}
+
+.cont1{
     background-color: #556374;
     border-radius: 5vh;
     opacity: 0.85;
 }
 
-.cont2 {
+.cont2{
     background-color: #556374;
     border-radius: 5vh;
     opacity: 0.85;

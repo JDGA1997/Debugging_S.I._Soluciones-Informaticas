@@ -4,6 +4,13 @@ body{
     background-size: cover;
 }
 
-#boton {
+#boton{
     inline-size: 3vh;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 7.3vh;
+    margin-right: 7.3vh;
 }

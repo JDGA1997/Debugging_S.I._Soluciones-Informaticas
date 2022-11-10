@@ -4,7 +4,7 @@ body{
     background-size: cover;
 }
 
-#boton {
+#boton{
     inline-size: 3vh;
 }
 
@@ -20,6 +20,8 @@ img{
     border-radius: 50%;
 }
 
+/*poner el input en el centro*/
+
 
 input{
     display: block;
@@ -34,16 +36,19 @@ input{
 }
 
 .check{
-    width: 2vh;
+    width: 18vh;
     height: 2vh;
     display: inline;
-   }
+}
+
 
 a{
     color: white;
     text-decoration: none;
-    margin-left: 4vh;
+    margin-left: 7.3vh;
+    margin-right: 7.3vh;
 }
+
 
 a:hover{
     color: #b8b8b8b8;
