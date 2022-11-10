@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,12 @@
     <!--Titulo-->
     <title>Guia de regalos - Contacto</title>
     <!--Icono de la pestaña-->
-    <link rel="icon" href="../imagenes/Icono Guia Regalos.png">
+    <link rel="icon" href="../imagenes/iconoContacto.jpg">
     <!--Estilos-->
     <link rel="stylesheet" href="../CSS/styleContacto.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
+
 <body>
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="facebook" viewBox="0 0 16 16">
@@ -51,7 +53,7 @@
                         <a class="nav-link" href="Login.html">Iniciar sesion</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto para vendedores</a>
+                        <a class="nav-link" href="Contacto.html">Contacto para vendedores</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="quienesSomos.html">Quienes somos</a>
@@ -65,7 +67,57 @@
     </nav>
 
     <main>
-
+        <div class="content">
+            <div class="container">
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md-10">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <h3 class="heading mb-4">Cuentanos sobre lo que quieres publicitar</h3>
+                                <p class="lead"><strong>A la brevedad nos pondremos en contacto contigo</strong></p>
+                                <p><img src="../IMAGENES/imgContacto.svg" alt="Image" class="img-fluid"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                            <input type="text" class="form-control mb-2" name="name" id="name"
+                                                placeholder="Nombre/Empresa">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                            <input type="text" class="form-control mb-2" name="email" id="email"
+                                                placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                            <input type="text" class="form-control mb-2" name="subject" id="subject"
+                                                placeholder="URL de tu producto o marca">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                            <textarea class="form-control mb-2" name="message" id="message" cols="30"
+                                                rows="7" placeholder="Mensaje"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <input type="submit" value="Enviar"
+                                                class="btn btn-primary rounded-0 py-2 px-4">
+                                            <span class="submitting"></span>
+                                        </div>
+                                    </div>
+                                </form>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -89,4 +141,5 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
