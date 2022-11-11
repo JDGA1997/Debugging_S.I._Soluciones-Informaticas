@@ -20,8 +20,6 @@ img{
     border-radius: 50%;
 }
 
-/*poner el input en el centro*/
-
 
 input{
     display: block;
@@ -35,28 +33,6 @@ input{
     border-bottom: 2px solid white;
 }
 
-.check{
-    width: 18vh;
-    height: 2vh;
-    display: inline;
-}
-
-
-a{
-    color: white;
-    text-decoration: none;
-    margin-left: 7.3vh;
-    margin-right: 7.3vh;
-}
-
-
-a:hover{
-    color: #b8b8b8b8;
-}
-
-label:hover{
-    color: #b8b8b8b8;
-}
 
 #google{
     width: 4vh;

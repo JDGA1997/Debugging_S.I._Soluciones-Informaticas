@@ -8,12 +8,6 @@ body{
     inline-size: 3vh;
 }
 
-a{
-    color: white;
-    text-decoration: none;
-    margin-left: 7.3vh;
-    margin-right: 7.3vh;
-}
 
 #suscribe{
     font-size: 3vh;
@@ -37,9 +31,7 @@ a{
 }           
 
 
-footer{
-    font-size: 1.5vw;
-}
+
 
 
 
