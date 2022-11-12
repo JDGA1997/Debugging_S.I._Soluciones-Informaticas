@@ -1,0 +1,32 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body{ 
+    background-image: url(../imagenes/fondoBuscar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#boton{
+    inline-size: 3vh;
+}
+
+.carousel{
+    margin-bottom: 4rem;
+}
+
+.carousel-caption{
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item{
+    height: 32rem;
+}
+
+rect{
+    background-image: url(../imagenes/imgLogin.png);
+    background-size: initial;
+}
