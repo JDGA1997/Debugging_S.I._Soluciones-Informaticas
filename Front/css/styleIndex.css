@@ -1,7 +1,7 @@
 body{ 
     background-image: url("../imagenes/fondoBuscar.jpg");
     background-repeat: no-repeat;
-    background-size: initial;
+    background-size: cover;
 }
 
 #boton{
