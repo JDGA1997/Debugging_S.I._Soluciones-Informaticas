@@ -12,6 +12,7 @@
     <!--Estilos-->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styleRegistro.css">
+    <script src="../js/validarSuscribe.js"></script>
 </head>
 
 <body>
@@ -69,7 +70,7 @@
     <div class="container mt-5">
         <fieldset class="form-group border-3 border-top border-white">
             <legend class=" px-2 ">Datos de Registro</legend>
-                <form action="#" method="post">
+                <form action="#" method="post" name="registro" onsubmit="return validarRegistro()">
 
                     <div class="form-floating col-sm-12 col-md-4 mb-3">
                         <input class="form-control" type="text" name="nombre" id="floatingNombre">
@@ -82,7 +83,7 @@
                     </div>
         
                     <div class="form-floating col-sm-12 col-md-4 mb-3">
-                        <input type="email" class="form-control" id="floatingInput">
+                        <input type="email" class="form-control" id="floatingInput" name="email">
                         <label for="floatingInput">Email</label>
                     </div>
         
@@ -92,7 +93,7 @@
                     </div>
         
                     <div class="form-floating col-sm-12 col-md-4 mb-3">
-                        <input type="tel" class="form-control" id="floatingTel">
+                        <input type="tel" class="form-control" id="floatingTel" name="telefono">
                         <label for="floatingTel">Teléfono</label>
                     </div>
 
@@ -107,9 +108,9 @@
                         </div>
                         
                         <div class="form-floating col-sm-12 col-md-3 mb-3">
-                            <input class="form-control" type="text" id="numero">
+                            <input class="form-control" type="text" id="numero" name="dni">
                             <label for="numero">Numero</label>
-                        </div>
+                        </div> 
                     </div>
                     
                     <div class="form-floating col-sm-12 col-md-4 mb-3">
@@ -144,17 +145,17 @@
                     </div>
         
                     <div class="form-floating col-sm-12 col-md-4 mb-3">
-                        <input type="text" class="form-control" id="floatingUsuario">
+                        <input type="text" class="form-control" id="floatingUsuario" name="usuario">
                         <label for="floatingUsuario">Usuario</label>
                     </div>
         
                     <div class="form-floating col-sm-12 col-md-4 mb-3">
-                        <input type="password" class="form-control" id="floatingPassword">
+                        <input type="password" class="form-control" id="floatingPassword" name="contrasena">
                         <label for="floatingPassword">Contraseña</label>
                     </div>
         
                     <div class="form-floating col-sm-12 col-md-4 mb-3">
-                        <input type="password" class="form-control" id="floatingREPassword">
+                        <input type="password" class="form-control" id="floatingREPassword" name="recontrasena">
                         <label for="floatingREPassword">Confirma Contraseña</label>
                     </div>
 
@@ -184,7 +185,7 @@
                     
                     
                     <div class="form-floating col-sm-12 col-md-4 mt-5">
-                        <button type="button" class="btn btn-success">Registrarse</button>
+                        <input class="btn btn-success" type="submit" value="Registrarse">
                     </div>
                     
                 </form>

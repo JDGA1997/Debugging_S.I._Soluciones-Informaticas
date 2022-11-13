@@ -18,7 +18,8 @@
         </style>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-        </style>    
+        </style>
+        <script src="../js/validarSuscribe.js"></script>    
     </head>
 
     <body>
@@ -83,12 +84,12 @@
         
             <main>   
                 <div class="col-md-5 offset-md-1 mb-3 mx-auto">
-                    <form>
+                    <form name="suscripcion" onsubmit="return validarSuscribe()" method="post" action="">
                         <p id="suscribe" class="text-center text-black">Suscribite para recibir nuestras promociones</p>
                         <div id="promo" class="d-flex flex-column flex-sm-row w-100 gap-2">
                             <label for="newsletter1" class="visually-hidden">Correo electrónico</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="Correo electrónico">
-                            <button class="btn btn-primary" type="button">Subscríbete</button>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Correo electrónico" name="suscribe">
+                            <input class="btn btn-primary" type="submit" value="Subscríbete">
                         </div>
                     </form>
                 </div>
