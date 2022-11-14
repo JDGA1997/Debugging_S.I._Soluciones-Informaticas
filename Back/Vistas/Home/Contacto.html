@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Titulo-->
-    <title>Guía de regalos - Quienes Somos</title>
+    <title>Guía de regalos - Contacto</title>
     <!--Icono de la pestaña-->
-    <link rel="icon" href="../imagenes/Icono Guia Regalos.png">
+    <link rel="icon" href="../imagenes/iconoContacto.jpg">
     <!--Estilos-->
-    <link rel="stylesheet" href="../css/styleQuienes.css">
+    <link rel="stylesheet" href="../CSS/styleContacto.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 
@@ -67,35 +67,59 @@
     </nav>
 
     <main>
-        <div class="container">
-            <div class="row d-flex">
-                <div class="col-sm-12 col-md-12">
-                    <div class="container__for px-5 py-5 mt-5 mb-5 justify-content-center">
-                        <h1 class="text-white">Quienes Somos</h1><br>
-                        <p class="lead text-white">Debugging S.I nace de la necesidad de generar soluciones para consumidores y emprendedores, en un mundo donde la tecnología, la vida cotidiana, la jornada laboral o un pasatiempo, buscan una conciliación. En esta oportunidad vamos a brindarte un espacio donde puedas mostrar lo que haces, tu producto, tu marca o tu hobby, como todo buen emprendedor posee. O bien, darte la oportunidad de encontrar ese obsequio, ese regalo que deseas hacer llegar a esas personas tan especiales para vos. Regala o regalate algo a vos, disfruta de ese presente, de este presente, que también es un obsequio. Con todo cariño deseamos que disfrutes de Guía de Regalos.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-
-        <div class="aboutus-secktion paddingTB60">
+        <div class="content">
             <div class="container">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-5 col-sm-12 px-4 py-5 cont1 me-2 mb-3">
-                        <h1 class="text-black">Esto es solo el comienzo! <br>Y es algo de lo que hacemos</h1>
-                        <p class="lead text-black"><strong>Tienes aquí el mejor sitio para encontrar tu regalo<br>fácil y rápido</p></strong>
-                    </div>
-                    <div class="col-md-5 col-sm-12 px-4 py-5 cont2 ms-2 mb-3">
-                        <h2 class="text-black">Ponte en <a href="Contacto.html" class="link-info">contacto</a> con nosotros</h2><br>
-                        <p class="lead text-black"><strong>Mostrá lo que haces junto con nosotros, publicita tu marca, tu producto. Obtén el mejor asesoramiento para impulsar tu negocio.
-                        </p></strong>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md-10">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <h3 class="heading mb-4">Cuéntanos sobre lo que quieres publicitar</h3>
+                                <p class="lead"><strong>A la brevedad nos pondremos en contacto contigo</strong></p>
+                                <p><img src="../IMAGENES/imgContacto.svg" alt="Image" class="img-fluid"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                            <input type="text" class="form-control mb-2" name="name" id="name"
+                                                placeholder="Nombre/Empresa">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                            <input type="text" class="form-control mb-2" name="email" id="email"
+                                                placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                            <input type="text" class="form-control mb-2" name="subject" id="subject"
+                                                placeholder="URL de tu producto o marca">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                            <textarea class="form-control mb-2" name="message" id="message" cols="30"
+                                                rows="7" placeholder="Mensaje"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <input type="submit" value="Enviar"
+                                                class="btn btn-primary rounded-0 py-2 px-4">
+                                            <span class="submitting"></span>
+                                        </div>
+                                    </div>
+                                </form>
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
     <footer>
         <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top border-3 border-white">
             <p><strong>&copy; 2022 Debugging S.I. All rights reserved.</strong></p>
@@ -112,7 +136,6 @@
             </ul>
         </div>
     </footer>
-    
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
