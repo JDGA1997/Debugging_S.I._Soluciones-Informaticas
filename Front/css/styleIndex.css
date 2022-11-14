@@ -1,11 +1,23 @@
 body{ 
-    background-image: url("../imagenes/fondoBuscar.jpg");
+    background-image: url("../imagenes/FONDO.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 #boton{
     inline-size: 3vh;
+}
+
+
+img{
+    width: 80vh;
+    height: 80vh;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 
@@ -16,19 +28,17 @@ body{
 
 .cabecera h1{
     text-align: center;
-    font-size: 17vw;
-    color: rgb(134, 72, 216);
+    font-size: 100px;
+    color: #1E1E1E;
     -webkit-text-stroke: 0.015em #000;
-    font-family: 'Comforter Brush', cursive;
+    font-family: 'DM Sans', cursive;
 }
 
 .cabecera p{
-    padding: 0 0 5%;
     text-align: center;
-    font-size: 8vw;
-    color: red;
-    -webkit-text-stroke: 0.03em #000;
-    font-family: 'Amatic SC', cursive; 
+    font-size: 40px;
+    color: #1E1E1E;
+    font-family: 'DM Sans', cursive;
 }           
 
 

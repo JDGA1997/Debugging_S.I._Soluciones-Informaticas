@@ -1,10 +1,55 @@
 body{
-    background-image: url("../imagenes/fondoBuscar.jpg");
+    background-image: url("../imagenes/FONDO.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 #boton{
     inline-size: 3vh;
 }
 
+.container__for{
+    background-color: #0a1e35;
+    border-radius: 5vh;
+    opacity: 0.85;
+}
+
+img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+.form-floating {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+.form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+}
+
+.form-check-input{
+    width: 100%;
+    max-width: 16px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
