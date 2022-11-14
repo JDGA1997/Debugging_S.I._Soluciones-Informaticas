@@ -32,7 +32,7 @@ function validarLogin()
     }
     else
     {
-        alert("Suscripto correctamente");
+        alert("Logueado correctamente");
         return true;
     }
     
