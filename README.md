@@ -6,11 +6,16 @@
 ## Company
 ![imagen](https://user-images.githubusercontent.com/105946879/193426847-0a3fd71f-8c6b-4669-9485-6e9d15b4dfaa.png)
 
+<br></br>
 ## GitHub Page
 
 #### https://jdga1997.github.io/Debugging_S.I._Soluciones-Informaticas/Front/html/Index.html
 
+## Sitio en Wordpress
 
+#### http://w300206.ferozo.com/
+
+<br></br>
 ## Integrantes:
 
 - [Juan Diego Gonzalez Antoniazzi](https://github.com/JDGA1997)
@@ -34,7 +39,7 @@
 - [Santiago Romero](https://github.com/santiagosw)
 
 
-
+<br></br>
 ## Construido 👩‍💻👨🏼‍💻
 
 ### Front-End
@@ -47,3 +52,7 @@
 ### Back-End
 
 - Python para arquitectura MVC y POO.
+
+### Base de Datos
+
+- MySQL
