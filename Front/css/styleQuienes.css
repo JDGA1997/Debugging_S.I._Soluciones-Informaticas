@@ -2,10 +2,12 @@ body{
     background-image: url("../imagenes/FONDO.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'DM Sans', cursive;
 }
 
 #boton{
     inline-size: 3vh;
+    font-family: 'DM Sans', cursive;
 }
 
 img{
@@ -16,12 +18,14 @@ img{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    font-family: 'DM Sans', cursive;
 }
 
 .container__for{
     background-color: #0a1e35;
     border-radius: 5vh;
     opacity: 0.85;
+    font-family: 'DM Sans', cursive;
 }
 
 
@@ -29,10 +33,12 @@ img{
     background-color: #556374;
     border-radius: 5vh;
     opacity: 0.85;
+    font-family: 'DM Sans', cursive;
 }
 
 .cont2{
     background-color: #556374;
     border-radius: 5vh;
     opacity: 0.85;
+    font-family: 'DM Sans', cursive;
 }
