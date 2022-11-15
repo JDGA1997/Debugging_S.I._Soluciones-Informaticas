@@ -2,23 +2,27 @@ body{
     background-image: url("../imagenes/FONDO.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'DM Sans', cursive;
     
 }
 
 #boton{
     inline-size: 3vh;
+    font-family: 'DM Sans', cursive;
 }
 
 .container__for{
     background-color: #0a1e35;
     border-radius: 5vh;
     opacity: 0.85;
+    font-family: 'DM Sans', cursive;
 }
 
 img{
     width: 20vh;
     height: 20vh;
     border-radius: 50%;
+    font-family: 'DM Sans', cursive;
 }
 
 .form-floating {
@@ -29,12 +33,14 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'DM Sans', cursive;
 }
 
 .form input {
     width: 90%;
     height: 30px;
     margin: 0.5rem;
+    font-family: 'DM Sans', cursive;
 }
 
 .form button {
@@ -42,6 +48,7 @@ img{
     border: none;
     background: rgb(100, 200, 255);
     cursor: pointer;
+    font-family: 'DM Sans', cursive;
 }
 
 .form-check-input{
@@ -52,4 +59,5 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'DM Sans', cursive;
 }
