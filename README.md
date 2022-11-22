@@ -26,17 +26,9 @@
 
 - [Omar David Fernández](https://github.com/odafer91)
 
-- [Juan Lozano](https://github.com/juanlozano77)
-
-- [Giannina Natalia Savid Rodriguez](https://github.com/giannisavid)
-
 - [Angelo Vito Leo Obregón](https://github.com/Angelo-1989)
 
-- [Fabiola Jeanette Benitez Armoa](https://github.com/JeaneBeAr)
-
 - [Valeria Ledesma](https://github.com/ledesmavb)
-
-- [Santiago Romero](https://github.com/santiagosw)
 
 
 <br></br>
