@@ -1,8 +1,14 @@
 ![imagen](https://user-images.githubusercontent.com/105946879/233245008-665deb54-926d-4c1d-a0d3-a1531b522c27.png)
 
-# Guia de Regalos 🛍️🎁🎀
+# Guia de Regalos 🎀🎁
+
 <br></br>
-# [GitHub Page](https://jdga1997.github.io/Debugging_S.I._Soluciones-Informaticas/Front/html/Index.html)
+
+# 🛍️[GitHub Page](https://jdga1997.github.io/Debugging_S.I._Soluciones-Informaticas/Front/html/Index.html)🛍️
+
+<br></br>
+
+## ⏮️[Repositorio anterior](https://github.com/JDGA1997/Debugging_S.I._Soluciones-Informaticas)⏮️
 
 
 <br></br>
