@@ -1,38 +1,30 @@
-![imagen](https://user-images.githubusercontent.com/105946879/189708376-08477f46-ff38-476d-b096-09a224167ed6.png)
+![imagen](https://user-images.githubusercontent.com/105946879/233245008-665deb54-926d-4c1d-a0d3-a1531b522c27.png)
 
-
-# Guias de Regalos 🛍️🎁🎀
-
-## Company
-![imagen](https://user-images.githubusercontent.com/105946879/193426847-0a3fd71f-8c6b-4669-9485-6e9d15b4dfaa.png)
-
+# Guia de Regalos 🛍️🎁🎀
 <br></br>
-## GitHub Page
+# [GitHub Page](https://jdga1997.github.io/Debugging_S.I._Soluciones-Informaticas/Front/html/Index.html)
 
-#### https://jdga1997.github.io/Debugging_S.I._Soluciones-Informaticas/Front/html/Index.html
-
-## Sitio en Wordpress
-
-#### http://w300206.ferozo.com/
 
 <br></br>
 ## Integrantes:
 
-- [Juan Diego Gonzalez Antoniazzi](https://github.com/JDGA1997)
+- [Alvarenga, Analia ](https://github.com/rastalunarl)
 
-- [Shirley Luz Frassa](https://github.com/shirleyfrassa)
+- [Bartoli, Giuliano ](https://github.com/BGiuliano)
 
-- [Leonardo Cesar Farran](https://github.com/Leo-Farran)
+- [Bellon, Federico Fabián](https://github.com/fedevricobellon)
 
-- [Omar David Fernández](https://github.com/odafer91)
+- [Fernández, Maximiliano](https://github.com/lanusroots)
 
-- [Angelo Vito Leo Obregón](https://github.com/Angelo-1989)
+- [González Antoniazzi, Juan Diego](https://github.com/JDGA1997)
 
-- [Valeria Ledesma](https://github.com/ledesmavb)
+- [Gutierrez, Emma](https://github.com/Emygut)
+
+- [Romanzini, Alicia Beatriz](https://github.com/AliciaRomanzini)
 
 
 <br></br>
-## Construido 👩‍💻👨🏼‍💻
+## Construido 💻🖥️
 
 ### Front-End
 
@@ -48,3 +40,17 @@
 ### Base de Datos
 
 - MySQL
+
+
+<br></br>
+## Proximamente 👩‍💻👨🏼‍💻
+
+### Front-End
+
+- Angular
+- Typescript
+
+### Back-End
+
+- Django
+- Typescript
