@@ -4,7 +4,7 @@
 
 <br></br>
 
-# 🛍️[GitHub Page](https://jdga1997.github.io/Debugging_S.I._Soluciones-Informaticas/Front/html/Index.html)🛍️
+# 🛍️[GitHub Page](https://debugging-s-i-soluciones-informaticas.github.io/E-Commerce_Guia_de_Regalos/Front/html/Index.html)🛍️
 
 <br></br>
 
@@ -12,7 +12,7 @@
 
 
 <br></br>
-## Integrantes:
+## Integrantes  👩‍💻👨🏼‍💻
 
 - [Alvarenga, Analia ](https://github.com/rastalunarl)
 
@@ -49,7 +49,7 @@
 
 
 <br></br>
-## Proximamente 👩‍💻👨🏼‍💻
+## Proximamente 🏗️🚧
 
 ### Front-End
 
