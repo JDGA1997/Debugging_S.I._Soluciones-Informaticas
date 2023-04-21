@@ -1,0 +1,63 @@
+body{
+    background-image: url("../imagenes/FONDO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'DM Sans';
+    
+}
+
+#boton{
+    inline-size: 3vh;
+    font-family: 'DM Sans';
+}
+
+.container__for{
+    background-color: #0a1e35;
+    border-radius: 5vh;
+    opacity: 0.85;
+    font-family: 'DM Sans';
+}
+
+img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    font-family: 'DM Sans';
+}
+
+.form-floating {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans';
+}
+
+.form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+    font-family: 'DM Sans';
+}
+
+.form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+    font-family: 'DM Sans';
+}
+
+.form-check-input{
+    width: 100%;
+    max-width: 16px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans';
+}
