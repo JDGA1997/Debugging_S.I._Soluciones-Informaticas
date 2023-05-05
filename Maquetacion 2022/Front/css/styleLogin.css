@@ -1,0 +1,50 @@
+body{
+    background-image: url("../imagenes/FONDO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'DM Sans';
+}
+
+#boton{
+    inline-size: 3vh;
+    font-family: 'DM Sans';
+}
+
+.container__for{
+    background-color: #0a1e35;
+    border-radius: 5vh;
+    opacity: 0.85;
+    font-family: 'DM Sans';
+}
+
+img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    font-family: 'DM Sans';
+}
+
+
+input{
+    display: block;
+    width: 50vh;
+    height: 5vh;
+    margin-bottom: 10vh;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid white;
+    font-family: 'DM Sans';
+}
+
+
+#google{
+    width: 4vh;
+    height: 4vh;
+}
+
+#facebook{
+    width: 5vh;
+    height: 5vh;
+}

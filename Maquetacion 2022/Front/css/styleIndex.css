@@ -1,0 +1,46 @@
+body{ 
+    background-image: url("../imagenes/FONDO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'DM Sans';
+
+}
+
+#boton{
+    inline-size: 3vh;
+    font-family: 'DM Sans';
+}
+
+
+img{
+    width: 80vh;
+    height: 80vh;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-family: 'DM Sans';
+}
+
+
+#suscribe{
+    font-size: 3vh;
+    font-family: 'DM Sans';
+}
+
+
+.cabecera h1{
+    text-align: center;
+    font-size: 100px;
+    color: #1E1E1E;
+    -webkit-text-stroke: 0.015em #000;
+    font-family: 'DM Sans';
+}
+
+.cabecera p{
+    text-align: center;
+    font-size: 40px;
+    color: #1E1E1E;
+    font-family: 'DM Sans';
+}           

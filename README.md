@@ -1,32 +1,62 @@
-![imagen](https://user-images.githubusercontent.com/105946879/189708376-08477f46-ff38-476d-b096-09a224167ed6.png)
+![imagen](https://user-images.githubusercontent.com/105946879/233245008-665deb54-926d-4c1d-a0d3-a1531b522c27.png)
+
+# Guia de Regalos 🎀🎁
+
+<br></br>
+
+# 🛍️[GitHub Page](https://debugging-s-i-soluciones-informaticas.github.io/E-Commerce_Guia_de_Regalos/Front/html/Index.html)🛍️
+
+<br></br>
+
+## ⏮️[Repositorio anterior](https://github.com/JDGA1997/Debugging_S.I._Soluciones-Informaticas)⏮️
 
 
-# Debugging S.I.
+<br></br>
+## Integrantes  👩‍💻👨🏼‍💻
 
-## Repositorio del Grupo 75 correspondiente al Modulo FullStack de TSDWAD 
+- [Alvarenga, Analia ](https://github.com/rastalunarl)
 
-### Integrantes:
+- [Bartoli, Giuliano ](https://github.com/BGiuliano)
 
-- [Juan Diego Gonzalez Antoniazzi](https://github.com/JDGA1997)
+- [Bellon, Federico Fabián](https://github.com/fedevricobellon)
 
-- [Shirley Luz Frassa](https://github.com/shirleyfrassa)
+- [Fernández, Maximiliano](https://github.com/lanusroots)
 
-- [Leonardo Cesar Farran](https://github.com/Leo-Farran)
+- [González Antoniazzi, Juan Diego](https://github.com/JDGA1997)
 
-- [Omar David Fernández](https://github.com/odafer91)
+- [Gutierrez, Emma](https://github.com/Emygut)
 
-- [Juan Lozano](https://github.com/juanlozano77)
-
-- [Giannina Natalia Savid Rodriguez](https://github.com/giannisavid)
-
-- [Angelo Vito Leo Obregón](https://github.com/Angelo-1989)
-
-- [Fabiola Jeanette Benitez Armoa](https://github.com/JeaneBeAr)
-
-- [Valeria Ledesma](https://github.com/ledesmavb)
-
-- [Santiago Romero](https://github.com/santiagosw)
+- [Romanzini, Alicia Beatriz](https://github.com/AliciaRomanzini)
 
 
-## Proyecto
+<br></br>
+## Construido 💻🖥️
 
+### Front-End
+
+- HTML5 para maquetado
+- CSS3 para implementación de estilos
+- Javascript para funcionalidades
+- Bootstrap para el diseño del sitio
+
+### Back-End
+
+- Python para arquitectura MVC y POO.
+
+### Base de Datos
+
+- MySQL
+
+
+<br></br>
+## Proximamente 🏗️🚧
+
+### Front-End
+
+- Angular
+- Typescript
+
+### Back-End
+
+- Django
+- Typescript
